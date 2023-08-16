@@ -25,7 +25,7 @@ int main () {
     printf( "Enter number :\n") ;
     scanf("%d",&num) ;
     
-    printf("Series =") ;
+    printf("Series = ") ;
     
     for ( int i = 0; i < num; i++)
     {
