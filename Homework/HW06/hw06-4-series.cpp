@@ -18,19 +18,20 @@
 */
 #include <stdio.h>
 int main () {
+    
     int num ;
     int nine = 9 ;
     int sum = 0 ;
-    printf( "Enter number :") ;
+    printf( "Enter number :\n") ;
     scanf("%d",&num) ;
     
     printf("Series =") ;
     
-    for ( int i = 0; i <= num; i++)
+    for ( int i = 0; i < num; i++)
     {
         printf( "%d",nine) ;
         sum += nine;
-         if (i < num) {
+        if (i < num - 1) {
             printf(" + ");
         }
         nine = nine * 10 + 9;
